@@ -33,11 +33,17 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height:150px;
+    height:300px;
     align-items: center;
     padding:75px;
 }
 
+.box1, .img {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+    align-items: stretch;
+}
 .box1_main {
     font-size: 48px;
     color: #f9faf8;
@@ -49,6 +55,17 @@ body {
     color:#E5E7EB;
 }
 
-.img {
+.button {
+    background-color: #3882F6;
+    border-radius: 25px;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+}
 
+.img {
+    
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
 }
